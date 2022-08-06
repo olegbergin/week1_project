@@ -1,0 +1,198 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(src/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0%;
+}
+
+.navbar {
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    flex-flow: row nowrap;
+    opacity: 0.9;
+}
+
+.navbar a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black; 
+}
+
+.side {
+    background-color: #333;
+    width: 25%;
+    opacity: 0.9;
+    height: 95vh;    
+    color: rgb(255, 254, 254);
+    text-align: center;
+    
+}
+#title{
+    font-size: 2.5rem;
+    padding-top: 20%;
+    margin: 0;
+}
+#title2{
+    padding-top: 20%;
+    font-size: 1.5rem;
+}
+#button {
+    color: white;
+    background-color: black;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+#button:hover {
+    background-color: #ddd;
+    color: black; 
+}
+
+
+.image__container{
+
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+
+}
+.image__container img{
+    width: 20vw;
+    border-radius: 4vw; 
+    padding: 2vw;   
+}
+
+#menu{
+    text-align: center;
+    font-size: 4em;
+    color: white;
+    background-color: #333;
+    margin: 0%;
+    opacity: 0.9;
+}
+
+#faq-header{
+  margin-top: 10vh;
+    text-align: center;
+    font-size: 4em;
+    border-bottom: 1px dotted #ccc;
+    padding: 24px;
+    background-color: #333;
+    color: white;
+  }
+  @import url(https://fonts.googleapis.com/css?family=Raleway);
+
+  .faq-content {
+    margin: 0 auto;
+    color: #333;
+    background: #fcfcfc;
+    font-family: 'Raleway', sans-serif;
+    overflow-x: hidden;
+    text-align: center;
+    margin-bottom: 20vh;
+  }
+  
+  .faq-question {
+    padding: 20px 0;
+    border-bottom: 1px dotted #ccc;
+  }
+  
+  .panel-title {
+    font-size: 24px;
+    width: 100%;
+    position: relative;
+    margin: 0;
+    padding: 10px 10px 0 48px;
+    display: block;
+    cursor: pointer;
+  }
+  
+  .panel-content {
+    font-size: 20px;
+    padding: 0px 14px;
+    margin: 0 40px;
+    height: 0;
+    overflow: hidden;
+    position: relative;
+    opacity: 0;
+    -webkit-transition: .4s ease;
+    -moz-transition: .4s ease;
+    -o-transition: .4s ease;
+    transition: .4s ease;
+    color: black;
+  }
+  
+  .panel:checked ~ .panel-content{
+    height: auto;
+    opacity: 1;
+    padding: 14px;
+  }
+  
+  .plus {
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 4px;
+    z-index: 5;
+    font-size: 42px;
+    line-height: 100%;
+    -webkit-user-select: none;    
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    -webkit-transition: .2s ease;
+    -moz-transition: .2s ease;
+    -o-transition: .2s ease;
+    transition: .2s ease;
+  }
+  
+  .panel:checked ~ .plus {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  
+  .panel {
+    display: none;
+  }
+  #contact_head{
+    text-align: center;
+    font-size: 4em;
+    color: white;
+    background-color: #333;
+    padding: 20px;
+    margin: 0%;
+    margin-top: 10vh;
+    opacity: 0.9;
+  }
+  .contact {
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    flex-direction: column;
+    width: 20%;
+    align-content: center;
+  }
+  #contact_block {
+    display: flex;
+    justify-self: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
