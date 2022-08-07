@@ -21,6 +21,8 @@ body {
     color: white;
     padding: 14px 20px;
     text-decoration: none;
+    transition: ease-out;
+    transition-duration: 1000ms;
 }
 
 .navbar a:hover {
@@ -31,10 +33,10 @@ body {
 .side {
     background-color: #333;
     width: 25%;
-    opacity: 0.9;
     height: 95vh;    
     color: rgb(255, 254, 254);
     text-align: center;
+    opacity: 0.9;
     
 }
 #title{
@@ -51,6 +53,8 @@ body {
     background-color: black;
     padding: 14px 20px;
     text-decoration: none;
+    transition: ease-out;
+    transition-duration: 1000ms;
 }
 
 #button:hover {
@@ -196,3 +200,27 @@ body {
     text-align: center;
   }
 
+  .top {
+    --offset: 50px; 
+    
+    position: sticky;
+    bottom: 20px;      
+    margin-right:10px; 
+    place-self: end;
+    margin-top: calc(100vh + var(--offset));
+    
+    /* visual styling */
+    text-decoration: none;
+    padding: 10px;
+    font-family: sans-serif;
+    color: #fff;
+    background: #000;
+    border-radius: 100px;
+    white-space: nowrap;
+  }
+  
+  /* remove the below if you don't want smooth scrolling */
+  html,
+  body {
+    scroll-behavior: smooth;
+  }
